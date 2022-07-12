@@ -40,7 +40,7 @@ function App() {
 			<button onClick={reset}> Reset</button>
 			<form onSubmit={handleSubmitForm}>
 				<h2>Hooks with Redux for counter and user input</h2>
-				<text>Enter the Value to the counter: </text>
+				<div>Enter the Value to the counter: </div>
 				<input
 					type="number"
 					name="name"
